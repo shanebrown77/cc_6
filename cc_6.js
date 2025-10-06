@@ -29,8 +29,8 @@ return `manager name: ${this.name}, department: ${this.department}, team amount:
 
 // adding sample employees and managers/ step4
 
-const em1 =  new Employee ("Ponky Wonky", "Marketing")       ;
-const em2 =  new Employee ("Noah Yates", "Sales")            ;
+const em1 =  new Employee ("Ponky Wonky", "Marketing")           ;
+const em2 =  new Employee ("Noah Yates", "Sales")                ;
 const mgr1 = new Manager ("Mariano Salaso", "Cyber Security", 20);
 const mgr2 = new Manager ("Rino THE Rhino", "Finace", 17)        ; 
 
@@ -61,6 +61,8 @@ myCompany.addEmployee(em1);
 myCompany.addEmployee(em2);
 myCompany.addEmployee(mgr1)
 myCompany.addEmployee(mgr2)
+
+
 
 myCompany.listEmployees();
 
